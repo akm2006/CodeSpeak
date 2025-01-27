@@ -12,6 +12,15 @@ CodeSpeak is a simple yet powerful text-to-speech (TTS) application built using 
 - **Cross-Browser Support**: Works on most modern browsers that support the Web Speech API.
 
 ---
+## Limitations
+
+**Dependent on device and browser voice packs**
+- May not work properly on some browsers depending on how the browser handles Web Speech API.
+
+---
+
+## Link
+**https://akm2006.github.io/CodeSpeak/**
 
 ## Demo
 
