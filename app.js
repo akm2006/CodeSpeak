@@ -1,6 +1,7 @@
 let speech = new SpeechSynthesisUtterance();
 let voices = [];
 let voiceSelect = document.querySelector("#voice");
+document.querySelector("textarea").innerText="Enter any Text, Select a voice pack and then, click START";
 window.speechSynthesis.onvoiceschanged = () => {
   voices = window.speechSynthesis.getVoices();
   speech.voice = voices[0];
