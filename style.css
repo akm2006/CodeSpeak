@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Popins', sans-serif;
-    /* overflow: hidden; */
 }
 
 .hero {
@@ -51,6 +50,7 @@
     resize: none;
     overflow: visible;
     border: none;
+    color: rgb(241, 241, 241);
 }
 
 .bottom select {
@@ -63,7 +63,11 @@
     border-radius: 2rem;
     text-align: center;
     font-size: 1rem;
+}
 
+.bottom select:focus {
+    background-color: #000000; 
+    outline: none;
 }
 
 .bottom button {
