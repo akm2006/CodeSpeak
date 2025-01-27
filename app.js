@@ -19,3 +19,8 @@ start.addEventListener("click", () => {
   speech.text = text.value;
   window.speechSynthesis.speak(speech);
 });
+window.onload = () => {
+  setTimeout(() => {
+    start.click();
+  }, 3000);
+};
