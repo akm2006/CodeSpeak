@@ -32,7 +32,7 @@ Click on the link or Try CodeSpeak in your browser by cloning this repository an
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/codespeak.git
+   git clone https://github.com/akm2006/codespeak.git
    ```
 
 2. Navigate to the project directory:
