@@ -25,8 +25,8 @@
 
 .hero span {
     color: #f42501fd;
-    text-decoration: underline;
-    opacity: 80%;
+    border-bottom: 0.2rem solid rgb(32, 35, 233);
+    border-radius: 1.3rem;
 }
 
 .bottom {
@@ -66,7 +66,7 @@
 }
 
 .bottom select:focus {
-    background-color: #000000; 
+    background-color: #000000;
     outline: none;
 }
 
